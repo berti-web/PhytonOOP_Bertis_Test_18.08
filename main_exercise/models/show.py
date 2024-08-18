@@ -1,4 +1,4 @@
-from models.ticket import VIPTicket
+from main_exercise.models.ticket import VIPTicket
 class Show:
     def __init__(self, id, name, date):
         self.id = id

@@ -1,5 +1,5 @@
 
-from models import Customer, RegularTicket, VIPTicket, Show, FoodVoucher
+from main_exercise.models import Customer, RegularTicket, VIPTicket, Show, FoodVoucher
 
 if __name__ == "__main__":
     customer1 = Customer(1, "Ori", "Dahan", "Ori21@example.com", "123 Jerusalem Blvrd", "VIP", discount=20)
